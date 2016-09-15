@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  swiftApp2
 //
-//  Created by BHSRam7 on 9/6/16.
+//  Created by BHSRam7 on 9/13/16.
 //  Copyright © 2016 BHSRam7. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         print("button tapped")
         
         tapCount = tapCount + 1
-        if tapCount == 10 {
+        if tapCount >= 20 {
             coolLabel.text = "You've tapped 10 times"
         }
         
