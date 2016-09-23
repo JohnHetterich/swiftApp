@@ -16,7 +16,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func button1Tapped(_ sender: AnyObject) {
-        coolLabel.text = String(Double(text1.text!)! * Double(text2.text!)!)
+ //       coolLabel.text = String(Double(text1.text!)! * Double(text2.text!)!)
+        
+        coolLabel.text = "Answer is...\(Double(text1.text!)! + Double(text2.text!)!)"
+        
     }
     
     override func viewDidLoad() {
